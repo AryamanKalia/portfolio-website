@@ -14,10 +14,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Your Name - Portfolio</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="main.js" defer></script>
     </head>
     <body>
-        <nav >
-            <div class="navv">
+        <nav class="navv">
+            
             <ul  class="nav-bar">
                 <li class="nav-bar-items"><a href="#introduction" style="color:white">About</a></li>
                 <li class ="nav-bar-items"><a href="#skills" style="color:white">Skills</a></li>
@@ -27,13 +28,24 @@
                 <li class="nav-bar-items"><a href="#work-experience" style="color:white">Work Experience</a></li>
                 <li class="nav-bar-items"><a href="#contact" style="color:white">Contact</a></li>
             </ul>
-        </div>
+        
         </nav>
         <section id="introduction">
-            <h1>About Me</h1>
-            <p>Brief introduction highlighting your background, skills, and interests.</p>
-            <p>Elaborate on your educational background and relevant certifications.</p>
+            <div class="intro-start">
+            <div class="intro-pic">
+                <img src="./assets/Profile Pic.jpg" alt="profile Pic" width="100%">
+            </div>
+            <div class="intro-info">
+                <h1>About Me</h1>
+                <h1><div id="intro-text"></div></h1>
+
+            </div>
+
+            <!-- <p>Brief introduction highlighting your background, skills, and interests.</p> -->
+            <!-- <p>Elaborate on your educational background and relevant certifications.</p> -->
+        </div>
         </section>
+    
     
         <section id="skills">
             <h2>Skills</h2>
