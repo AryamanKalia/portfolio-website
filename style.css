@@ -44,15 +44,8 @@
 }
 .intro-start{
     display: flex;
-    justify-content: center;
     /* align-items: 40% 60%; */
     background-color: blueviolet;
-    height: 50%;
+    height: 40vh ;
     /* width: 40% 60%; */
-}
-.into-pic{
-    width: 40%;
-    border-width: 10px;
-    border-color: black;
-    border-style: solid;
 }
