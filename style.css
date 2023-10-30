@@ -2,7 +2,7 @@
     display:flex;
     justify-content:space-between;
     /* align-items: end; */
-    background-color: rgb(151, 57, 36);;
+    background-color: rgba(42, 36, 151, 0.942);
     /* height: 3em; */
     /* background-color: aqua; */
     /* margin: 1em; */
@@ -14,6 +14,7 @@
     /* padding: 1.5em; */
     margin:0%;
     padding:0%;
+    
 }
 .navv{
     
@@ -33,6 +34,8 @@
     display: flex;
     justify-content: space-between;
     padding:0.5em;
+    margin-right: 5%;
+    /* margin:5%; */
     /* align-items: center; */
     /* font-size: large; */
     /* margin-top: 0%; */
@@ -49,3 +52,12 @@
     height: 40vh ;
     /* width: 40% 60%; */
 }
+.spacer{
+    width:10vw;
+}
+/* .intro-text{
+    height: 100%  ;
+} */
+/* transition-height{
+    height:0%
+} */
